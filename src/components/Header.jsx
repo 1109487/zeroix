@@ -23,8 +23,8 @@ const Header = () => {
             <a href="tel:+1234567890" className="flex items-center gap-1 hover:text-white">
               <FaPhoneAlt /> +1 234 567 890
             </a>
-            <a href="mailto:info@example.com" className="flex items-center gap-1 hover:text-white">
-              <FaEnvelope /> info@example.com
+            <a href="mailto:info@zerionix.live" className="flex items-center gap-1 hover:text-white">
+              <FaEnvelope /> info@zerionix.live
             </a>
           </div>
 
