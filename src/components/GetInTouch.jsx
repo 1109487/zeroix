@@ -24,7 +24,7 @@ const GetInTouch = () => {
               <div>
                 <h4 className="text-lg font-semibold text-gray-800">Address</h4>
                 <p className="text-gray-600">
-                  123 Finance Street, Suite 456, New York, USA
+                  8604 Pine Dr, Chicago, IL 38300
                 </p>
               </div>
             </div>
@@ -35,7 +35,7 @@ const GetInTouch = () => {
               </div>
               <div>
                 <h4 className="text-lg font-semibold text-gray-800">Phone</h4>
-                <p className="text-gray-600">+1 (234) 567-890</p>
+                <p className="text-gray-600">+1 (718) 824-4189</p>
               </div>
             </div>
 
@@ -45,7 +45,7 @@ const GetInTouch = () => {
               </div>
               <div>
                 <h4 className="text-lg font-semibold text-gray-800">Email</h4>
-                <p className="text-gray-600">support@zerionix.com</p>
+                <p className="text-gray-600">info@zerionix.live</p>
               </div>
             </div>
           </div>
@@ -89,7 +89,7 @@ const GetInTouch = () => {
       {/* Map Section */}
     <div className="mt-16 rounded-2xl overflow-hidden shadow-lg max-w-7xl mx-auto px-6">
   <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227748.43602408006!2d75.62574481854841!3d26.88542139063844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4adf4c57e281%3A0xce1c63a0cf22e09!2sJaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1754465959184!5m2!1sen!2sin"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2967.8027813853287!2d-87.64455952499858!3d41.94008906153237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd3a48a380271%3A0x1fbe54f425e9ca35!2sN%20Pine%20Grove%20Ave%2C%20Chicago%2C%20IL%2C%20USA!5e0!3m2!1sen!2sin!4v1754630042085!5m2!1sen!2sin"
     width="100%"
     height="450"
     style={{ border: 0 }}

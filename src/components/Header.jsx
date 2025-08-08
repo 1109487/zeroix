@@ -20,8 +20,8 @@ const Header = () => {
         <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-2">
           {/* Contact Info */}
           <div className="flex flex-col sm:flex-row items-center sm:gap-6">
-            <a href="tel:+1234567890" className="flex items-center gap-1 hover:text-white">
-              <FaPhoneAlt /> +1 234 567 890
+            <a href="tel:+1 (718) 824-4189" className="flex items-center gap-1 hover:text-white">
+              <FaPhoneAlt /> +1 (718) 824-4189
             </a>
             <a href="mailto:info@zerionix.live" className="flex items-center gap-1 hover:text-white">
               <FaEnvelope /> info@zerionix.live
@@ -90,21 +90,22 @@ const Header = () => {
               <li><a href="#" className="hover:text-blue-600">Services</a></li>
               <li><a href="#" className="hover:text-blue-600">Contact</a></li>
               <li>
-                <button
-                  className="w-full text-left px-4 py-2 border rounded hover:bg-gray-100"
-                  onClick={() => openModal("login")}
-                >
-                  Login
-                </button>
-              </li>
-              <li>
-                <button
-                  className="w-full text-left px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
-                  onClick={() => openModal("signup")}
-                >
-                  Sign Up
-                </button>
-              </li>
+  <a
+    href="https://app.zerionix.live/login.php"
+    className="w-full block text-left px-4 py-2 border rounded hover:bg-gray-100"
+  >
+    Login
+  </a>
+</li>
+<li>
+  <a
+    href="https://app.zerionix.live/register.php"
+    className="w-full block text-left px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+  >
+    Sign Up
+  </a>
+</li>
+
             </ul>
           </div>
         </div>
