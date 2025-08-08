@@ -54,19 +54,20 @@ const Header = () => {
 
             {/* Auth Buttons (Desktop) */}
             <div className="hidden md:flex gap-4">
-              <button
-                className="px-4 py-2 border rounded hover:bg-gray-100"
-                onClick={() => openModal("login")}
-              >
-                Login
-              </button>
-              <button
-                className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
-                onClick={() => openModal("signup")}
-              >
-                Sign Up
-              </button>
-            </div>
+  <a
+    className="px-4 py-2 border rounded hover:bg-gray-100"
+    href="https://zerionix.live/login.php"
+  >
+    Login
+  </a>
+  <a
+    className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+    href="https://zerionix.live/register.php"
+  >
+    Sign Up
+  </a>
+</div>
+
 
             {/* Mobile Menu Button */}
             <button
