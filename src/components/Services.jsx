@@ -77,7 +77,7 @@ const Services = () => {
   }, []);
 
   return (
-    <section className="relative bg-white text-gray-800">
+    <section className="relative bg-white text-gray-800" id="services">
  
 
       <div className="max-w-7xl mx-auto px-6 py-20 text-center relative z-10">

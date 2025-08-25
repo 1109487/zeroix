@@ -3,8 +3,9 @@ import {
   FaFacebookF, FaInstagram, FaLinkedinIn, 
   FaPhoneAlt, FaEnvelope, FaBars, FaTimes 
 } from "react-icons/fa";
-import logo from "../assets/logo.svg";
+import logo from "../assets/logo3.png";
 import AuthModal from "./AuthModal"; // Import modal component
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,14 +43,21 @@ const Header = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex justify-between items-center py-4">
             {/* Logo */}
-            <img src={logo} alt="Logo" className="h-8 w-auto object-contain" />
+          <div className="w-auto">
+              <img src={logo} alt="Logo" className="h-18 w-full object-cover" />
+          </div>
 
             {/* Desktop Menu */}
             <ul className="hidden md:flex gap-8 text-lg text-gray-700 font-medium">
               <li><a href="/" className="hover:text-blue-600">Home</a></li>
-              <li><a href="#" className="hover:text-blue-600">About</a></li>
-              <li><a href="#" className="hover:text-blue-600">Services</a></li>
-              <li><a href="#" className="hover:text-blue-600">Contact</a></li>
+              <li><a href="#about" className="hover:text-blue-600">About</a></li>
+              <li><a href="#blog" className="hover:text-blue-600">Blogs</a></li>
+              <li><a href="#services" className="hover:text-blue-600">Services</a></li>
+             <li>
+  <Link to="/support" className="hover:text-blue-600">
+    Contact
+  </Link>
+</li>
             </ul>
 
             {/* Auth Buttons (Desktop) */}

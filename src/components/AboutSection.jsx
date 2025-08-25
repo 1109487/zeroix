@@ -4,7 +4,7 @@ import aboutAnimation from "../assets/hero.json"; // Replace with your Lottie JS
 
 const AboutSection = () => {
   return (
-    <section className="relative bg-white py-20 text-gray-800">
+    <section className="relative bg-white py-20 text-gray-800" id="about">
       <div className="max-w-7xl mx-auto px-6 space-y-16">
         {/* Row 1: Lottie + Who We Are (both glass) */}
         <div className="grid lg:grid-cols-2 gap-12 items-center">

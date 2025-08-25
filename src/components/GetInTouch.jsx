@@ -3,7 +3,7 @@ import { Mail, Phone, MapPin } from "lucide-react";
 
 const GetInTouch = () => {
   return (
-    <section className="relative bg-gradient-to-br from-white to-blue-400 py-20">
+    <section className="relative bg-gradient-to-br from-white to-blue-400 py-20" id="contact">
       <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
         {/* Left - Contact Info */}
         <div className="space-y-8">

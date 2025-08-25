@@ -7,18 +7,22 @@ import FAQs from '../components/Faqs'
 import GetInTouch from '../components/GetInTouch'
 import WhyChooseUs from '../components/WhyChooseUs'
 import Footer from '../components/Footer'
+import SupportSection from '../components/SupportSection'
+import BlogSection from '../components/BlogSection'
 
 const HomePage = () => {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <Hero />
       <AboutSection/> 
       <WhyChooseUs />
       <Services/>
-      <GetInTouch />
+      {/* <SupportSection /> */}
+      {/* <GetInTouch /> */}
+      <BlogSection/>
       <FAQs/>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
